@@ -18,4 +18,6 @@ I will be using various javascript resources and websites for the implementation
   - http://api.jquery.com/category/effects/
     Fading in of text (and maybe images) when user scrolls down.
     
+  - More to be added later, need to plan and see how the current ones work together before deciding what more to add in the future steps.
+
     
