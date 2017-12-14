@@ -1,0 +1,71 @@
+.icon
+{
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+    z-index: 3000;
+}
+
+.description
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 1000px;
+    background-color: white;
+}
+
+.description:hover
+{
+    width: 500px;
+}
+
+.description-img
+{
+    height: 40px;
+    width: 40px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Info_i_blue.svg/1000px-Info_i_blue.svg.png);
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img-margin
+{
+    padding-top: 15px;
+}
+
+.text-hover
+{
+    display: none;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-top: -45px;
+    margin-left: 10px;
+    font-family: 'Barlow';
+    font-size: .9em;
+    color: black;
+    text-align: center;
+}
+
+.description:hover .text-hover
+{
+    display: block;
+}
+
+.info h1
+{
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Barlow';
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+

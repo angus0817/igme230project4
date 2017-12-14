@@ -1,0 +1,43 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#mainContainer{
+    text-align: center;
+}
+
+#image{
+    text-align: center;
+    padding-bottom: 50px;
+    max-width: 50%;
+    max-height: 50%;
+    
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 24px;
+
+}
+
+#path ul{
+    text-align: center;
+}
+
+#path ul li {
+
+    display: inline-block;
+    margin: 50px;
+    font-size: 28px;
+}
+
+.path
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 50px;
+}

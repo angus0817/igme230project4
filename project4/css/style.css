@@ -1,0 +1,172 @@
+.container
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.title
+{
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Bungee';
+    text-decoration: none;
+    right: 0px;
+}
+
+body
+{
+  margin: 0;
+}
+
+body, html
+{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: lightseagreen;
+}
+
+.left .right
+{
+    display: flex;
+}
+
+.area
+{
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    position:  relative;
+}
+
+.area .circle
+{
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    border-radius: 2000px;
+    z-index: 1;
+    position: absolute;
+    top: calc(50% - 275px);
+    left: calc(50% - 275px);
+    margin-top: 50px;
+}
+
+.console-name
+{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Barlow';
+    color: white;
+
+}
+
+.console-name2
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Bungee';
+}
+
+.imageOne, .imageTwo, .imageThree
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    margin-top: 50px;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    opacity: 0;
+    
+    
+}
+
+.imageOne
+{
+    background-image: url(https://images.cellphonerepair.com/wp-content/uploads/2016/10/consoles-repair.png);
+    height: 500px;
+    width: 500px;
+    z-index: 2;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+
+.imageTwo
+{
+    background-image: url(../images/ps4.png);
+    height: 500px;
+    width: 500px;
+    z-index: 2;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+
+    
+}
+
+.imageThree
+{
+    background-image: url(../images/switch.png);
+    height: 500px;
+    width: 500px;
+    z-index: 2;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+
+.firstCircle
+{
+    background-color: green;
+}
+
+#pageOne
+{
+    background-color: darkgreen;
+}
+
+
+.secondCircle
+{
+    background-color: blue;
+}
+
+#pageTwo
+{
+    background-color: darkblue;
+}
+
+.thirdCircle
+{
+    background-color: red;
+}
+
+#pageThree
+{
+    background-color: darkred;
+}
+
+@keyframes show {
+    0% {opacity: 0; transform: translateY(200px);}
+    100% {opacity: 1;  transform: translateY(0px);}
+}
+
+.visible {
+    animation-name: show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+
+
